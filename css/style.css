@@ -1,0 +1,46 @@
+.buttons {
+	position: relative;
+	margin: 0 auto 20px auto;
+	padding: 20px;
+	float: left;
+	display: block;
+	background-color: #eee;
+	border-radius: 4px;
+}
+.buttons:after {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(238, 238, 238, 0);
+	border-top-color: #eee;
+	border-width: 10px;
+	margin-left: -10px;
+}
+.button {
+	padding: 10px 20px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	outline: none;
+	cursor: pointer;
+	color: rgb(238, 231, 231);
+	background-color: #7F8C8D;
+	border: none;
+	border-radius: 4px;
+}
+#play-button {
+	background-color: #c41104;
+}
+#play-button:hover {
+	background-color: #27AE60;
+}
+
+
+
+
+
+
